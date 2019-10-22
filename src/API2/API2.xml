@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API2</name>
+    </assembly>
+    <members>
+        <member name="M:API2.Controllers.CalculoTaxaJuros.GetCalculoTaxaJuros(System.Decimal,System.UInt32)">
+            <summary>
+            Retorna o valor calculador sobre a taxa de juros da API1
+            </summary>
+            <param name="valorInicial">Valor inicial para calcular.</param>
+            <param name="tempo">Tempo para calcular (em meses).</param>
+            <returns>Resultado no formato #,##.</returns>
+        </member>
+    </members>
+</doc>
