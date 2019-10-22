@@ -12,5 +12,11 @@
             <param name="tempo">Tempo para calcular (em meses).</param>
             <returns>Resultado no formato #,##.</returns>
         </member>
+        <member name="M:API2.Controllers.CalculoTaxaJuros.GetUrlDoCodigoFonteNoGitHub">
+            <summary>
+            Retorna a URL deste código-fonte no GitHub
+            </summary>
+            <returns>URL do codigo-fonte.</returns>
+        </member>
     </members>
 </doc>
