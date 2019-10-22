@@ -49,6 +49,10 @@ namespace API2.Controllers
             }
         }
 
+        /// <summary>
+        /// Retorna a URL deste código-fonte no GitHub
+        /// </summary>
+        /// <returns>URL do codigo-fonte.</returns>
         [HttpGet("showmethecode")]
         public async Task<string> GetUrlDoCodigoFonteNoGitHub()
         {
